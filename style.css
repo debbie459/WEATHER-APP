@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    width: 100%;
+    width: 85%;
     max-width: 500px;
     max-height: 200vh;
     margin: 100px auto 50px;
@@ -49,6 +49,14 @@ button:hover{
 }
 
 .weather-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.weather img {
+    margin: 0 auto; 
     margin-top: 40px;
 }
 
