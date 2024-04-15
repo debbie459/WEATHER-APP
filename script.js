@@ -11,7 +11,13 @@ async function checkWeather(city){
 
     if (response.status == 404){
         document.querySelector(".error").style.display = "block";
-        // if there is an issue with the input the user enters and it cannot be fetched, show the error message already specified in the html file
+        document.querySelector(".humidity").style.display = "none";
+        document.querySelector(".wind").style.display = "none";
+        document.querySelector(".weather-icon").style.display = "none";
+        document.querySelector(".temp").style.display = "none";
+        document.querySelector(".city").style.display = "none";
+
+    // if there is an issue with the input the user enters and it cannot be fetched, show the error message already specified in the html file. Also, don't show the other attributes
     }
 
     else{
@@ -55,7 +61,7 @@ async function checkWeather(city){
     document.querySelector(".humidity").style.display = "block";
     document.querySelector(".wind").style.display = "block";
 
-    // if there is no issue with the input the user entered, do not show an error message.s
+    // if there is no issue with the input the user entered, do not show an error message.
     }
 
 }
