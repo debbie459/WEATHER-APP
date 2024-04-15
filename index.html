@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <input type="text" placeholder="Enter a location" id="input-box" spellcheck="false">
+        <button> SEARCH </button>
+
+        <div class="error">
+            <p>Oops! This city does not exist. </p>
+        </div>
+
+        <div class="weather">
+            <img class="weather-icon">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+
+        </div>
+
+        <div class="details">
+            <div class="humidity">
+                <img src="images/humidity.png" alt="Humidity icon" class="humidity-icon">
+                <div class="detailed_humidity">
+                    <p id="humidityp"></p>
+                    <p id="humidity-name">Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <img src="images/wind.png" alt="Wind icon" class="">
+                <div class="detailed-wind">
+                    <p id="windp"></p>
+                    <p id="wind-name">Wind Speed</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
