@@ -11,10 +11,10 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 100%;
     max-width: 500px;
     max-height: 200vh;
-    margin: 100px auto 2px;
+    margin: 100px auto 50px;
     padding: 20px 40px 40px 20px;
     background: linear-gradient(to bottom,#5f7561, #919992 );
     border-radius: 20px;
